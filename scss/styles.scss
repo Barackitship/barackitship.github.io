@@ -694,7 +694,7 @@ footer {
     -------------------------------
 */
 
-#skills {
+#skills_1 {
     padding: 50px 15px;
     text-align: center;
 
@@ -715,6 +715,75 @@ footer {
         margin: 7px;
         padding: 5px 10px;
         color: $heading;
+        background: darken($background-alt, 5%);
+        list-style: none;
+        cursor: default;
+        font-size: 1.2em;
+    }
+}
+
+#skills_2 {
+    padding: 50px 15px;
+    text-align: center;
+
+    ul {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        max-width: 800px;
+    }
+
+    li {
+        display: inline-block;
+        margin: 7px;
+        padding: 5px 10px;
+        color: CornflowerBlue;
+        background: darken($background-alt, 5%);
+        list-style: none;
+        cursor: default;
+        font-size: 1.2em;
+    }
+}
+
+#skills_3 {
+    padding: 50px 15px;
+    text-align: center;
+
+    ul {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        max-width: 800px;
+    }
+
+    li {
+        display: inline-block;
+        margin: 7px;
+        padding: 5px 10px;
+        color: rgb(115, 218, 106);
+        background: darken($background-alt, 5%);
+        list-style: none;
+        cursor: default;
+        font-size: 1.2em;
+    }
+}
+
+#skills_4 {
+    padding: 50px 15px;
+    text-align: center;
+
+    ul {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        max-width: 800px;
+    }
+
+    li {
+        display: inline-block;
+        margin: 7px;
+        padding: 5px 10px;
+        color: rgb(218, 183, 106);
         background: darken($background-alt, 5%);
         list-style: none;
         cursor: default;
